@@ -1,0 +1,18 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+# POSIX 명세에 따름. https://blog.coderifleman.com/2015/04/04/text-files-end-with-a-newline/
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+tab_width = 4
+
+[*.{kt, kts}]
+disabled_rules = import-ordering
+
+[*.{yml, yaml}]
+indent_size = 2

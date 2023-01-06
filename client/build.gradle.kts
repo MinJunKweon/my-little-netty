@@ -13,7 +13,10 @@ repositories {
     mavenCentral()
 }
 
+val nettyVersion by extra("4.1.86.Final")
+
 dependencies {
+    implementation("io.netty:netty-all:$nettyVersion")
     testImplementation(kotlin("test"))
 }
 

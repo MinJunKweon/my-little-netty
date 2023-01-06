@@ -1,6 +1,8 @@
 ###### Gradle ######
 .gradle
-/build/
+build/
+client/build/
+server/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting

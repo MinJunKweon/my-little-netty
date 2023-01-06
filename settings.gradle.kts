@@ -1,1 +1,2 @@
-rootProject.name = "my-little-netty"
+include(":server")
+include(":client")
